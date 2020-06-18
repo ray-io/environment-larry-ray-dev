@@ -15,10 +15,10 @@ cluster:
   provider: kubernetes
 environments:
 - ingress:
-    domain: 35.208.66.55.nip.io
+    domain: 35.206.104.222.nip.io
     externalDNS: false
     ignoreLoadBalancer: true
-    namespaceSubDomain: -ray.
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
@@ -47,10 +47,10 @@ environments:
   repository: environment-larry-ray-production
 gitops: true
 ingress:
-  domain: 35.208.66.55.nip.io
+  domain: 35.206.104.222.nip.io
   externalDNS: false
   ignoreLoadBalancer: true
-  namespaceSubDomain: -ray.
+  namespaceSubDomain: -jx.
   tls:
     email: ""
     enabled: false
@@ -76,6 +76,6 @@ velero:
   schedule: ""
   ttl: ""
 versionStream:
-  ref: v1.0.496
+  ref: v1.0.500
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
