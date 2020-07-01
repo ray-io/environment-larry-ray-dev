@@ -1,7 +1,11 @@
 autoUpdate:
   enabled: false
   schedule: ""
+<<<<<<< Updated upstream
 bootConfigURL: https://github.com/craft-de-jet/environment-larry-ray-dev
+=======
+bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config
+>>>>>>> Stashed changes
 cluster:
   clusterName: larry-ray
   devEnvApprovers:
@@ -24,6 +28,10 @@ environments:
       enabled: false
       production: false
   key: dev
+<<<<<<< Updated upstream
+  repository: environment-larry-ray-dev
+=======
+>>>>>>> Stashed changes
 - ingress:
     domain: ""
     externalDNS: false
@@ -33,6 +41,10 @@ environments:
       enabled: false
       production: false
   key: staging
+<<<<<<< Updated upstream
+  repository: environment-larry-ray-staging
+=======
+>>>>>>> Stashed changes
 - ingress:
     domain: ""
     externalDNS: false
@@ -42,6 +54,10 @@ environments:
       enabled: false
       production: false
   key: production
+<<<<<<< Updated upstream
+  repository: environment-larry-ray-production
+=======
+>>>>>>> Stashed changes
 gitops: true
 ingress:
   domain: 35.200.235.172.nip.io
@@ -73,6 +89,10 @@ velero:
   schedule: ""
   ttl: ""
 versionStream:
+<<<<<<< Updated upstream
+  ref: v1.0.512
+=======
   ref: master
+>>>>>>> Stashed changes
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
