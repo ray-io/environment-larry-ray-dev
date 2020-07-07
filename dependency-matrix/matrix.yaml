@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: craft-de-jet
+  repo: tribute-page
+  url: https://github.com/craft-de-jet/tribute-page.git
+  version: ""
+  versionURL: ""

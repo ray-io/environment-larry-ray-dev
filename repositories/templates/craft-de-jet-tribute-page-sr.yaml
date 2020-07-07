@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: craft-de-jet
+    provider: github
+    repository: tribute-page
+  name: craft-de-jet-tribute-page
+spec:
+  description: Imported application for craft-de-jet/tribute-page
+  httpCloneURL: https://github.com/craft-de-jet/tribute-page.git
+  org: craft-de-jet
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: tribute-page
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/craft-de-jet/tribute-page.git
